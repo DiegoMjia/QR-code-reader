@@ -12,5 +12,7 @@ export default defineConfig({
     host: '0.0.0.0', // Permite conexiones desde dispositivos en la misma red local
     port: 5173,
     https: true, // Habilita HTTPS local para que el navegador móvil permita usar la cámara
-  }
+  },
+  base: '/QR-code-reader/', // IMPORTANTE: debe ser el nombre exacto de tu repo
 })
+
